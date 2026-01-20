@@ -11,7 +11,7 @@ export const Navbar = () => {
 
 
   return (
-    <nav className="flex justify-between items-center py-4">
+    <nav className="flex justify-between items-center">
         {/* Left Side */}
       <div className="flex-3/5 flex items-center gap-12.5">
         <div className="flex items-center gap-2">
@@ -22,7 +22,7 @@ export const Navbar = () => {
               width={80}
               height={40}
             ></Image>
-            <span className="text-2xl font-medium hidden lg:block">
+            <span className="text-lg font-bold hidden lg:block">
               RentHomeBD
             </span>
           </Link>
