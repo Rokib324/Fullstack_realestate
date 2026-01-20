@@ -1,9 +1,10 @@
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-emerald-500 flex items-center justify-center h-screen">Welcome to My Real Estate Website</h1>
+    <div className="max-w-341.5 mx-auto px-5 h-screen lg:max-w-7xl md:max-w-4xl sm:max-w-2xl">
+      <Navbar />
     </div>
   );
 }
